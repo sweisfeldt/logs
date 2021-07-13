@@ -6,3 +6,6 @@
 // Get variable value from VariableManager
 var myVar = context.variableManager.getValue("RndInt");
 logger.debug("ComputedValue="+myVar);
+logger.info("ComputedValue="+myVar);
+logger.error("ComputedValue="+myVar);
+logger.warn("ComputedValue="+myVar);
